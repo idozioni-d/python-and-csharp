@@ -14,11 +14,11 @@
     width: 10%;
 }
 .sect {
-    position: relative; /* swap from absolute — much safer */
+    position: relative; 
     max-width: 1300px;
     width: 90%;
-    margin: 60px auto; /* room so text clears the arrows */
-    padding: 20px 80px; /* side padding keeps text off the arrows */
+    margin: 60px auto; 
+    padding: 20px 80px; 
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
