@@ -19,7 +19,7 @@ function loadSharedHeader() {
 let pvotes = 0;
 let cvotes = 0;
 let url = "";
-function reset() {
+function resetvote() {
     fetch('/api/dv', { method: 'POST' })
         .then(function () {
             window.location.href = "vote.html";
