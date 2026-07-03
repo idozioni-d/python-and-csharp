@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vote page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="votep(); votec(); loadSharedHeader();">
+
+    <div id="shared-header"></div>
+    <img class="barrow" src="images/back arrow.png" alt="Click me" onclick="setp(2)" style="cursor: pointer;" />
+    <section class="sect">
+        <h1>Welcome to the Internet Project Guide</h1>
+        <p>This is a simple example of a web page that includes a shared header, an arrow image that can be clicked, and some content.</p>
+        <button onclick="castc()">vote c#</button>
+        <button onclick="castp()">vote python</button>
+        <button onclick="reset()">delete vote</button>
+        <p id="pn">0 python votes</p>
+        <p id="cn">0 cs votes</p>
+
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

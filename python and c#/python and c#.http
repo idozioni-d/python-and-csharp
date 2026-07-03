@@ -1,0 +1,6 @@
+@python_and_c__HostAddress = http://localhost:5155
+
+GET {{python_and_c__HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
